@@ -13,3 +13,9 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 html {
   font-size: 18px; }
+
+h1 {
+  font-size: 20px; }
+
+h2 {
+  color: red; }

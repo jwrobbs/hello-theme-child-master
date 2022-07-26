@@ -15,3 +15,10 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 html {
 	font-size: 18px;
 }
+
+@import 	'scss/_1-variables.scss', 
+			'scss/_2-atoms',
+			'scss/_3-molecules',
+			'scss/_4-organisms',
+			'scss/_5-templates',
+			'scss/_6-pages';
