@@ -1,6 +1,6 @@
-P {
+// P {
 
-}
+// }
 
 p a{
 	text-decoration: underline;
@@ -10,11 +10,31 @@ p a{
 	}
 }
 
+h1 {
+	font-size: $basesize*$scale*$scale*$scale;
+}
+h2 {
+	font-size: $basesize*$scale*$scale;
+}
+h3{
+	font-size: $basesize*$scale;
+}
+h4{
+	font-size: $basesize;
+}
 
-// @for $i from 1 through 4 {
-// 	h#{$i} {
-// 		$exponent: 4 - $i;
-// 		$multiplier: pow($scale,$i);
-// 	  font-size: $base-size * $multiplier;
-// 	}
-//   }
+
+
+header nav {
+
+	a {
+		color: $black;
+		text-decoration: none;
+		font-weight: 400;
+		&:hover{
+			color:	$black;
+			text-decoration: none;
+			opacity: .65;
+		}
+	}
+}

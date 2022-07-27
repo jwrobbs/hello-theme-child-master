@@ -16,13 +16,34 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 
 html, :root {
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.357;
   color: #000; }
 
 p a {
   text-decoration: underline; }
   p a:hover {
     text-decoration: none; }
+
+h1 {
+  font-size: 44.97923px; }
+
+h2 {
+  font-size: 33.14608px; }
+
+h3 {
+  font-size: 24.426px; }
+
+h4 {
+  font-size: 18px; }
+
+header nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400; }
+  header nav a:hover {
+    color: #000;
+    text-decoration: none;
+    opacity: .65; }
 
 .archive-grid {
   display: -webkit-box;
