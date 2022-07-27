@@ -12,13 +12,9 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
 */
 
-html {
-	font-size: 18px;
-}
-
-@import 	'scss/_1-variables.scss', 
-			'scss/_2-atoms',
-			'scss/_3-molecules',
-			'scss/_4-organisms',
-			'scss/_5-templates',
-			'scss/_6-pages';
+@import 	'scss/1-variables/1-variables', 
+			'scss/2-atoms/2-atoms',
+			'scss/3-molecules/3-molecules',
+			'scss/4-organisms/4-organisms',
+			'scss/5-templates/5-templates',
+			'scss/6-pages/6-pages';

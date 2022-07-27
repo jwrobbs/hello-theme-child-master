@@ -1,0 +1,20 @@
+P {
+
+}
+
+p a{
+	text-decoration: underline;
+
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+
+// @for $i from 1 through 4 {
+// 	h#{$i} {
+// 		$exponent: 4 - $i;
+// 		$multiplier: pow($scale,$i);
+// 	  font-size: $base-size * $multiplier;
+// 	}
+//   }

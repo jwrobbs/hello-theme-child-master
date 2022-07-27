@@ -1,40 +1,10 @@
-/* 
-Theme Name: Hello Elementor Child - customized by JWR
-Theme URI: https://github.com/elementor/hello-theme/
-Description: Hello Elementor Child is a child theme of Hello Elementor, created by Elementor team. Josh Robbs customized this child theme.
-Author: Josh Robbs
-Author URI: https://joshrobbs.com/
-Template: hello-elementor
-Version: 1.0.1
-Text Domain: hello-elementor-child
-License: GNU General Public License v3 or later.
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
-Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, rtl-language-support, threaded-comments, translation-ready
-*/
-.base-size {
-  color: red; }
 
-html, :root {
-  font-size: 18px;
-  line-height: 1.4;
-  color: #000; }
-
-p a {
-  text-decoration: underline; }
-  p a:hover {
-    text-decoration: none; }
-
-.archive-grid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  gap: 1.5rem; }
-
+.archive-grid{
+	display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 1.5rem;
+}
 /* old
                 .home-grid {
                     display: flex;
