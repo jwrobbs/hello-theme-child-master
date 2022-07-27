@@ -1,18 +1,70 @@
 
 .archive-grid{
-	display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    gap: 1.5rem;
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: $basesize;
+    row-gap: $basesize;
+
+    grid-template-areas:
+        "first first second third"
+        "first first fourth fifth"
+        "sixth seventh eighth nineth";
+
+    background-color: $black;
+
 }
+
+.home-card {
+    background-color: $white;
+    padding: 1rem;
+    // flex: 0 0 300px;
+    // height: 500px;
+    position: relative;
+    overflow: hidden;
+    // box-shadow: 2px 2px 5px #000;
+
+    .taxonomy-tag a {
+        font-size: .9rem;
+        line-height: 1.4;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        padding: .5rem 0;
+        font-weight: 700;
+        margin: 0;
+    } 
+    .featured-image,
+    .featured-image a {
+        line-height: 0;
+    }
+
+    .excerpt {
+        font-size: .9rem;
+    }
+}
+.home-card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    padding: 1rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    line-height: 1.4em;
+    border-top: 1px solid #002244;
+
+    &> div {
+        font-size: .9rem;
+    }
+}
+
 /* old
-                .home-grid {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    gap: 1.5rem;
-                    
-                }
+               
                 .home-card {
                     background-color: #fff;
                     padding: 1rem;
