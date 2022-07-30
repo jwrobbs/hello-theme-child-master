@@ -62,6 +62,22 @@ header nav a {
   flex: 0 0 300px;
   position: relative;
   overflow: hidden; }
+  .archive-card.type-post .styled-excerpt {
+    background: -webkit-linear-gradient(232deg, white 0%, #DB0000 50%, white 100%);
+    background: -o-linear-gradient(232deg, white 0%, #DB0000 50%, white 100%);
+    background: linear-gradient(218deg, white 0%, #DB0000 50%, white 100%); }
+  .archive-card.type-review .styled-excerpt {
+    background: -webkit-linear-gradient(232deg, white 0%, #006EDB 50%, white 100%);
+    background: -o-linear-gradient(232deg, white 0%, #006EDB 50%, white 100%);
+    background: linear-gradient(218deg, white 0%, #006EDB 50%, white 100%); }
+  .archive-card.type-code-snippet .styled-excerpt {
+    background: -webkit-linear-gradient(232deg, white 0%, #FFB612 50%, white 100%);
+    background: -o-linear-gradient(232deg, white 0%, #FFB612 50%, white 100%);
+    background: linear-gradient(218deg, white 0%, #FFB612 50%, white 100%); }
+  .archive-card.type-tutorial .styled-excerpt {
+    background: -webkit-linear-gradient(232deg, white 0%, #0CCE6B 50%, white 100%);
+    background: -o-linear-gradient(232deg, white 0%, #0CCE6B 50%, white 100%);
+    background: linear-gradient(218deg, white 0%, #0CCE6B 50%, white 100%); }
   .archive-card .styled-excerpt-container {
     position: relative;
     height: 200px;
@@ -80,9 +96,6 @@ header nav a {
       -webkit-transform: rotate(-20deg) translate(0, -50%);
       -ms-transform: rotate(-20deg) translate(0, -50%);
       transform: rotate(-20deg) translate(0, -50%);
-      background: -webkit-linear-gradient(232deg, white 0%, #DB0000 50%, white 100%);
-      background: -o-linear-gradient(232deg, white 0%, #DB0000 50%, white 100%);
-      background: linear-gradient(218deg, white 0%, #DB0000 50%, white 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
   .archive-card .title {

@@ -17,6 +17,20 @@
 
     // border: 3px solid red;
     // box-shadow: 2px 2px 5px #000;
+    &.type-post .styled-excerpt{
+        background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $accent-bright 50%, rgba(255,255,255,1) 100%);
+    }
+    &.type-review .styled-excerpt{
+        background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt-accent-bright 50%, rgba(255,255,255,1) 100%);
+    }
+    &.type-code-snippet .styled-excerpt{
+        // background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt2-accent-bright 50%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt2-accent-bright 50%, rgba(255,255,255,1) 100%);
+    }
+    &.type-tutorial .styled-excerpt{
+        // background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt3-accent-bright 50%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt3-accent-bright 50%, rgba(255,255,255,1) 100%);
+    }
 
     .styled-excerpt-container{
         position: relative;
@@ -37,32 +51,28 @@
             line-height: 1.1;
             text-align: center;
             
-            // $left: math.div($extra, 2);
-
-
-
             $extra: $excerpt_width - 300;
             $left: $extra / -2;
             left: $left;
             top: 50%;
+            transform: rotate(-20deg) translate(0,-50%);
+
+            // background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $accent-bright 50%, rgba(255,255,255,1) 100%);
+            //order matters!? background must come before clip
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
             // transform: translate(0,-50%);
             // top: 50%;
             // margin-top: -50%;
             // transform: rotate(-20deg);
-            transform: rotate(-20deg) translate(0,-50%);
-            // background-color: #8200007d;
-
             
-
-            // font-size: 72px;
             // background: -webkit-linear-gradient($alt-accent-bright, #fff);
             // background: -webkit-linear-gradient($accent-bright, #fff);
             // background: linear-gradient(231deg, rgba(255,255,255,1) 0%, rgba(226,3,3,1) 50%, rgba(255,255,255,1) 100%);
-            background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $accent-bright 50%, rgba(255,255,255,1) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
             
-
+            
+        
         }
     }
     .title {
