@@ -56,18 +56,18 @@ header nav a {
   justify-content: center;
   gap: 1rem; }
 
-.home-card {
-  background-color: #000;
+.archive-card {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 300px;
   flex: 0 0 300px;
   position: relative;
   overflow: hidden; }
-  .home-card .styled-excerpt-container {
+  .archive-card .styled-excerpt-container {
     position: relative;
     height: 200px;
-    overflow: hidden; }
-    .home-card .styled-excerpt-container .styled-excerpt {
+    overflow: hidden;
+    background-color: #000; }
+    .archive-card .styled-excerpt-container .styled-excerpt {
       position: absolute;
       display: block;
       width: 500px;
@@ -80,29 +80,29 @@ header nav a {
       -webkit-transform: rotate(-20deg) translate(0, -50%);
       -ms-transform: rotate(-20deg) translate(0, -50%);
       transform: rotate(-20deg) translate(0, -50%);
-      background: -webkit-linear-gradient(219deg, white 0%, #006EDB 50%, white 100%);
-      background: -o-linear-gradient(219deg, white 0%, #006EDB 50%, white 100%);
-      background: linear-gradient(231deg, white 0%, #006EDB 50%, white 100%);
+      background: -webkit-linear-gradient(232deg, white 0%, #DB0000 50%, white 100%);
+      background: -o-linear-gradient(232deg, white 0%, #DB0000 50%, white 100%);
+      background: linear-gradient(218deg, white 0%, #DB0000 50%, white 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
-  .home-card .title {
+  .archive-card .title {
     background-color: #fff;
     padding: .25rem .5rem; }
-    .home-card .title h2 {
+    .archive-card .title h2 {
       color: #000; }
-      .home-card .title h2 a {
+      .archive-card .title h2 a {
         color: #000;
         -webkit-transition: ease all .5s;
         -o-transition: ease all .5s;
         transition: ease all .5s;
         text-decoration: none; }
-        .home-card .title h2 a:hover {
+        .archive-card .title h2 a:hover {
           text-decoration: underline;
           color: #820000;
           -webkit-transition: ease all .5s;
           -o-transition: ease all .5s;
           transition: ease all .5s; }
-        .home-card .title h2 a span {
+        .archive-card .title h2 a span {
           font-weight: bold; }
 
 .home-card-footerx {
