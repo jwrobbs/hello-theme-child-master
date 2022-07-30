@@ -63,21 +63,25 @@ header nav a {
   position: relative;
   overflow: hidden; }
   .archive-card.type-post .styled-excerpt {
-    background: -webkit-linear-gradient(232deg, white 0%, #DB0000 50%, white 100%);
-    background: -o-linear-gradient(232deg, white 0%, #DB0000 50%, white 100%);
-    background: linear-gradient(218deg, white 0%, #DB0000 50%, white 100%); }
+    background: -webkit-linear-gradient(232deg, #DB0000 30%, white 100%);
+    background: -o-linear-gradient(232deg, #DB0000 30%, white 100%);
+    background: linear-gradient(218deg, #DB0000 30%, white 100%);
+    -webkit-text-stroke-color: #DB0000; }
   .archive-card.type-review .styled-excerpt {
-    background: -webkit-linear-gradient(232deg, white 0%, #006EDB 50%, white 100%);
-    background: -o-linear-gradient(232deg, white 0%, #006EDB 50%, white 100%);
-    background: linear-gradient(218deg, white 0%, #006EDB 50%, white 100%); }
+    background: -webkit-linear-gradient(232deg, #006EDB 30%, white 100%);
+    background: -o-linear-gradient(232deg, #006EDB 30%, white 100%);
+    background: linear-gradient(218deg, #006EDB 30%, white 100%);
+    -webkit-text-stroke-color: #006EDB; }
   .archive-card.type-code-snippet .styled-excerpt {
-    background: -webkit-linear-gradient(232deg, white 0%, #FFB612 50%, white 100%);
-    background: -o-linear-gradient(232deg, white 0%, #FFB612 50%, white 100%);
-    background: linear-gradient(218deg, white 0%, #FFB612 50%, white 100%); }
+    background: -webkit-linear-gradient(232deg, #FFB612 30%, white 100%);
+    background: -o-linear-gradient(232deg, #FFB612 30%, white 100%);
+    background: linear-gradient(218deg, #FFB612 30%, white 100%);
+    -webkit-text-stroke-color: #FFB612; }
   .archive-card.type-tutorial .styled-excerpt {
-    background: -webkit-linear-gradient(232deg, white 0%, #0CCE6B 50%, white 100%);
-    background: -o-linear-gradient(232deg, white 0%, #0CCE6B 50%, white 100%);
-    background: linear-gradient(218deg, white 0%, #0CCE6B 50%, white 100%); }
+    background: -webkit-linear-gradient(232deg, #0CCE6B 30%, white 100%);
+    background: -o-linear-gradient(232deg, #0CCE6B 30%, white 100%);
+    background: linear-gradient(218deg, #0CCE6B 30%, white 100%);
+    -webkit-text-stroke-color: #0CCE6B; }
   .archive-card .styled-excerpt-container {
     position: relative;
     height: 200px;
@@ -93,9 +97,9 @@ header nav a {
       text-align: center;
       left: -100px;
       top: 50%;
-      -webkit-transform: rotate(-20deg) translate(0, -50%);
-      -ms-transform: rotate(-20deg) translate(0, -50%);
-      transform: rotate(-20deg) translate(0, -50%);
+      -webkit-transform: rotate(-16deg) translate(0, -50%);
+      -ms-transform: rotate(-16deg) translate(0, -50%);
+      transform: rotate(-16deg) translate(0, -50%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
   .archive-card .title {

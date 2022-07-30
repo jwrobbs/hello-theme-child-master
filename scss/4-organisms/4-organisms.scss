@@ -18,18 +18,23 @@
     // border: 3px solid red;
     // box-shadow: 2px 2px 5px #000;
     &.type-post .styled-excerpt{
-        background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $accent-bright 50%, rgba(255,255,255,1) 100%);
+        // background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $accent-bright 50%, rgba(255,255,255,1) 100%); 
+        background: linear-gradient(218deg, $accent-bright 30%, rgba(255,255,255,1) 100%); 
+        -webkit-text-stroke-color: $accent-bright;
     }
     &.type-review .styled-excerpt{
-        background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt-accent-bright 50%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(218deg, $alt-accent-bright 30%, rgba(255,255,255,1) 100%);
+        -webkit-text-stroke-color: $alt-accent-bright;
     }
     &.type-code-snippet .styled-excerpt{
         // background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt2-accent-bright 50%, rgba(255,255,255,1) 100%);
-        background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt2-accent-bright 50%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(218deg, $alt2-accent-bright 30%, rgba(255,255,255,1) 100%);
+        -webkit-text-stroke-color: $alt2-accent-bright;
     }
     &.type-tutorial .styled-excerpt{
         // background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt3-accent-bright 50%, rgba(255,255,255,1) 100%);
-        background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $alt3-accent-bright 50%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(218deg, $alt3-accent-bright 30%, rgba(255,255,255,1) 100%);
+        -webkit-text-stroke-color: $alt3-accent-bright;
     }
 
     .styled-excerpt-container{
@@ -55,23 +60,11 @@
             $left: $extra / -2;
             left: $left;
             top: 50%;
-            transform: rotate(-20deg) translate(0,-50%);
+            transform: rotate(-16deg) translate(0,-50%);
+            // -webkit-text-stroke-width: 1px;
 
-            // background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $accent-bright 50%, rgba(255,255,255,1) 100%);
-            //order matters!? background must come before clip
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-
-            // transform: translate(0,-50%);
-            // top: 50%;
-            // margin-top: -50%;
-            // transform: rotate(-20deg);
-            
-            // background: -webkit-linear-gradient($alt-accent-bright, #fff);
-            // background: -webkit-linear-gradient($accent-bright, #fff);
-            // background: linear-gradient(231deg, rgba(255,255,255,1) 0%, rgba(226,3,3,1) 50%, rgba(255,255,255,1) 100%);
-            
-            
         
         }
     }
