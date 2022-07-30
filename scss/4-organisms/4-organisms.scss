@@ -61,8 +61,7 @@
             left: $left;
             top: 50%;
             transform: rotate(-16deg) translate(0,-50%);
-            // -webkit-text-stroke-width: 1px;
-
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         

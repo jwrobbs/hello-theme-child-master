@@ -100,6 +100,7 @@ header nav a {
       -webkit-transform: rotate(-16deg) translate(0, -50%);
       -ms-transform: rotate(-16deg) translate(0, -50%);
       transform: rotate(-16deg) translate(0, -50%);
+      background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
   .archive-card .title {
