@@ -67,11 +67,13 @@
         
         }
     }
+    $card_padding: 1rem .5rem 0;
     .title {
         background-color: $white;
-        padding: .25rem .5rem;
+        padding: $card_padding;
         h2 {
             color: $black;
+            margin: 0;
             a {
               color: $black;
               transition: ease all .5s;
@@ -93,12 +95,12 @@
     .excerpt-container {
 
         .excerpt {
-
+            padding: $card_padding;
         }
     }
 
     .byline-container {
-
+        padding: $card_padding;
     }
 
 
@@ -186,3 +188,27 @@
                 .home-card-footer > div {
                     font-size: .9rem;
                 }*/
+
+
+// related items
+.related-items{
+
+
+
+
+    ul {
+        li{
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+
+                span{
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

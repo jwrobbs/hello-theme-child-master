@@ -105,9 +105,10 @@ header nav a {
       -webkit-text-fill-color: transparent; }
   .archive-card .title {
     background-color: #fff;
-    padding: .25rem .5rem; }
+    padding: 1rem 0.5rem 0; }
     .archive-card .title h2 {
-      color: #000; }
+      color: #000;
+      margin: 0; }
       .archive-card .title h2 a {
         color: #000;
         -webkit-transition: ease all .5s;
@@ -122,6 +123,10 @@ header nav a {
           transition: ease all .5s; }
         .archive-card .title h2 a span {
           font-weight: bold; }
+  .archive-card .excerpt-container .excerpt {
+    padding: 1rem 0.5rem 0; }
+  .archive-card .byline-container {
+    padding: 1rem 0.5rem 0; }
 
 .home-card-footerx {
   position: absolute;
@@ -189,3 +194,9 @@ header nav a {
                 .home-card-footer > div {
                     font-size: .9rem;
                 }*/
+.related-items ul li a {
+  text-decoration: none; }
+  .related-items ul li a:hover {
+    text-decoration: underline; }
+  .related-items ul li a span {
+    text-transform: capitalize; }
