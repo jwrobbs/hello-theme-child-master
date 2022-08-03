@@ -1,0 +1,6 @@
+.related-items ul li a {
+  text-decoration: none; }
+  .related-items ul li a:hover {
+    text-decoration: underline; }
+  .related-items ul li a span {
+    text-transform: capitalize; }

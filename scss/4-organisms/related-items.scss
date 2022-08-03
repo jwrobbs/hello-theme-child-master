@@ -1,0 +1,18 @@
+.related-items{
+
+    ul {
+        li{
+            a{
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+
+                span{
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

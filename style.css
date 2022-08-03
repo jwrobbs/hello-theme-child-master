@@ -45,6 +45,13 @@ header nav a {
     text-decoration: none;
     opacity: .65; }
 
+.related-items ul li a {
+  text-decoration: none; }
+  .related-items ul li a:hover {
+    text-decoration: underline; }
+  .related-items ul li a span {
+    text-transform: capitalize; }
+
 .archive-grid {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -194,9 +201,3 @@ header nav a {
                 .home-card-footer > div {
                     font-size: .9rem;
                 }*/
-.related-items ul li a {
-  text-decoration: none; }
-  .related-items ul li a:hover {
-    text-decoration: underline; }
-  .related-items ul li a span {
-    text-transform: capitalize; }

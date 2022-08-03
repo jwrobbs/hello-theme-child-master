@@ -1,4 +1,4 @@
-
+@import 'related-items.scss';
 .archive-grid{
 	display: flex;
     flex-wrap: wrap;
@@ -189,26 +189,3 @@
                     font-size: .9rem;
                 }*/
 
-
-// related items
-.related-items{
-
-
-
-
-    ul {
-        li{
-            a{
-                text-decoration: none;
-
-                &:hover{
-                    text-decoration: underline;
-                }
-
-                span{
-                    text-transform: capitalize;
-                }
-            }
-        }
-    }
-}
