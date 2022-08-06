@@ -83,7 +83,8 @@ header nav a {
   -ms-flex: 0 0 300px;
   flex: 0 0 300px;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 1rem; }
   .archive-card.type-post .styled-excerpt {
     background: -webkit-linear-gradient(232deg, #DB0000 30%, white 100%);
     background: -o-linear-gradient(232deg, #DB0000 30%, white 100%);
