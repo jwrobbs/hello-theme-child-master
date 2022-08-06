@@ -45,6 +45,21 @@ header nav a {
     text-decoration: none;
     opacity: .65; }
 
+.archive-pagination-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: 1rem; }
+  .archive-pagination-container a {
+    text-decoration: none; }
+    .archive-pagination-container a:hover {
+      text-decoration: underline; }
+
 .related-items ul li a {
   text-decoration: none; }
   .related-items ul li a:hover {
