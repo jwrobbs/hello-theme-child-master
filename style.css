@@ -60,6 +60,9 @@ header nav a {
     .archive-pagination-container a:hover {
       text-decoration: underline; }
 
+h1.jwr-archive-title {
+  text-align: center; }
+
 .related-items ul li a {
   text-decoration: none; }
   .related-items ul li a:hover {
