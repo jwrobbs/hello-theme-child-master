@@ -18,6 +18,8 @@
 
     // border: 3px solid red;
     // box-shadow: 2px 2px 5px #000;
+    
+
     &.type-post .styled-excerpt{
         // background: linear-gradient(218deg, rgba(255,255,255,1) 0%, $accent-bright 50%, rgba(255,255,255,1) 100%); 
         background: linear-gradient(218deg, $accent-bright 30%, rgba(255,255,255,1) 100%); 
@@ -53,15 +55,16 @@
             width: $excerpt_width;
             
             font-family: 'Bison',sans-serif;
-            font-size: 2.8rem;
-            line-height: 1.1;
+            font-size: 2.5rem;
+            line-height: 1;
             text-align: center;
             
             $extra: $excerpt_width - 300;
             $left: $extra / -2;
             left: $left;
             top: 50%;
-            transform: rotate(-16deg) translate(0,-50%);
+            transform: rotate(-13deg) translate(0,-50%);
+            // transform: translate(0,-50%);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
